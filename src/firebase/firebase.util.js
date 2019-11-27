@@ -9,7 +9,7 @@ export const auth = firebase.auth();
 export const firestore = firebase.firestore();
 
 const provider = new firebase.auth.GoogleAuthProvider();
-provider.setCustomParameters({ prompt: 'select_accout' });
+provider.setCustomParameters({ prompt: 'select_account' });
 export const signInwithGoogle = () => auth.signInWithPopup(provider);
 
 export default firebase;
