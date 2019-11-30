@@ -5,7 +5,7 @@ import ShopPage from './pages/ShopPage/ShopPage';
 import SignInAndSignUp from './pages/SignInAndSignUp/SignInAndSignUp';
 import { Route, Switch } from 'react-router-dom';
 import Header from './components/Header/Header';
-import { auth, createUserProfileDocument } from './firebase/firebase.util';
+import { auth, createUserProfileDocument } from './firebase/firebase.utils';
 
 class App extends React.Component {
   constructor() {
