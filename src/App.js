@@ -6,7 +6,7 @@ import SignInAndSignUp from './pages/SignInAndSignUp/SignInAndSignUp';
 import { Route, Switch, Redirect } from 'react-router-dom';
 import Header from './components/Header/Header';
 import { auth, createUserProfileDocument } from './firebase/firebase.utils';
-import { setCurrentUser } from './redux/user/action';
+import { setCurrentUser } from './redux/user/actions';
 import { connect } from 'react-redux';
 
 class App extends React.Component {

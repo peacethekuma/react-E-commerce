@@ -1,4 +1,4 @@
-import { SET_CURRENT_USER } from './action';
+import { SET_CURRENT_USER } from './actions';
 
 const INITIAL_STATE = {
   currentUser: null
