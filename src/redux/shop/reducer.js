@@ -1,13 +1,13 @@
-import SHOP_DATA from '../../shop.data';
+import { SHOP_DATA_TABEL } from '../../shop.data';
 const INITIAL_STATE = {
-  collections: SHOP_DATA
-}
+  collections: SHOP_DATA_TABEL
+};
 
 const shopReducer = (state = INITIAL_STATE, action) => {
   switch (action) {
     default:
-      return state
+      return state;
   }
-}
+};
 
 export default shopReducer;
